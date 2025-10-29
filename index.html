@@ -15,17 +15,81 @@
         </div>
     </div>
     <div class="buttons">
-        <div class="b1"><h2>Rock</h2>
-            <button id="but1"><img src="Rock.png" alt=""></button>
+
+        <div class="b1">
+            <h2>Rock</h2>
+            <button id="but1">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" width="7em" height="7em" {...props}>
+                    <g fill="currentColor">
+                        <path
+                            d="M5 12h5c1.2 0 1.77-2 2-6.75A1.24 1.24 0 0 0 10.77 4H8V1.5A1.46 1.46 0 0 0 6.5 0A1.46 1.46 0 0 0 5 1.5c0 2.08-.73 2.56-.74 2.56A.54.54 0 0 0 4 4.5V11a1 1 0 0 0 1 1">
+                        </path>
+                        <rect width="3" height="8" y="4" rx="1" ry="1"></rect>
+                    </g>
+                </svg>
+
+            </button>
         </div>
-        <div class="b2"><h2>Paper</h2>
-            <button id="but2"><img src="paper.png" alt=""></button>
+        <div class="b2">
+            <h2>Paper</h2>
+            <button id="but2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="7em" height="7em" {...props}>
+                    <path fill="currentColor"
+                        d="M20 2a3 3 0 0 1 3 3v2h-2v12a3 3 0 0 1-3 3H4a3 3 0 0 1-3-3v-2h16v2a1 1 0 0 0 .883.993L18 20a1 1 0 0 0 .993-.883L19 19v-4H3V5a3 3 0 0 1 3-3z">
+                    </path>
+                </svg>
+            </button>
         </div>
-        <div class="b3"><h2>Scissors</h2>
-            <button id="but3"><img src="Scissors.png" alt=""></button>
+        <div class="b3">
+            <h2>Scissors</h2>
+            <button id="but3">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="7em" height="7em" {...props}>
+                    <path fill="currentColor"
+                        d="M40 208c-22.1 0-40 17.9-40 40s17.9 40 40 40h180.2c-7.6 8.5-12.2 19.7-12.2 32c0 25.3 19.5 46 44.3 47.9c-7.7 8.5-12.3 19.8-12.3 32.1c0 26.5 21.5 48 48 48h96c70.7 0 128-57.3 128-128V206.9c0-40.2-16-78.8-44.4-107.3C444.8 76.8 413.9 64 381.7 64H336c-21.3 0-39.3 13.9-45.6 33.1l74.5 23.7c8.4 2.7 13.1 11.7 10.4 20.1s-11.7 13.1-20.1 10.4L288 129.9v.1L84 65.8C62.9 59.2 40.5 70.9 33.8 92s5.1 43.5 26.2 50.2L269.5 208z">
+                    </path>
+                </svg>
+            </button>
         </div>
     </div>
-    <div class="JS"></div>
+    <div class="output">
+        <div class="History">
+            <h1>History</h1>
+            <div class="Border"></div>
+            <div class="bar">
+                <span class="Win">
+                    <h3>Win</h3>
+                    <p>0</p>
+                </span>
+                <span class="Loss">
+                    <h3>Loss</h3>
+                    <p>0</p>
+                </span>
+                <span class="Tie">
+                    <h3>Tie</h3>
+                    <p>0</p>
+                </span>
+            </div>
+        </div>
+        <div class="Result"></div>
+        <div class="Guide">
+            <h2>How to Play :</h2>
+            <p>
+                Start: Players face each other, often holding one hand as a fist on top of their open palm. They say
+                "Rock, paper, scissors, shoot" in unison.
+                Throw: On the word "shoot," both players simultaneously form one of the three shapes with their other
+                hand.
+                <br>
+                <br>
+                Determine the winner: The outcome is decided based on the following rules:
+                Rock crushes scissors: A player who chooses rock beats a player who chooses scissors.
+                Scissors cuts paper: A player who chooses scissors beats a player who chooses paper.
+                Paper covers rock: A player who chooses paper beats a player who chooses rock.
+                <br>
+                <br>
+                Tie: If both players choose the same shape, it's a tie, and the players must play again until there is a
+                winner. </p>
+        </div>
+    </div>
     <script src="rps.js"></script>
 </body>
 
