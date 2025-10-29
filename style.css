@@ -27,6 +27,7 @@ body {
 
 .buttons {
     padding: 50px;
+    padding-bottom: 20px;
     display: flex;
     justify-content: center;
     text-align: end;
@@ -115,14 +116,79 @@ body {
     width: 100px;
 }
 
-.JS {
-    display: block;
-    border: 4px solid rgb(111, 84, 26);
-    border-radius: 10px;
-    height: 220px;
-    width: 780px;
+.Result {
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    align-self: center;
+    /* position: relative;
+    top: -100px; */
+}
+
+.output {
+    display: grid;
+    grid-template-columns: 450px 450px 450px;
+    grid-template-rows: 260px;
+}
+
+.History {
+    display: grid;
+    width: 300px;
+    justify-items: center;
+    position: relative;
+    top: -219px;
+    border: 4px solid black;
+    border-color: rgb(66, 54, 144);
+    border-radius: 15px;
+}
+
+.History h1 {
+    font-size: 36px;
+    color: rgb(66, 54, 144);
+}
+
+.bar {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 150px;
+}
+
+.Border {
+    border: 2px solid black;
+    height: 0px;
+    width: 300px;
+    border-color: rgb(66, 54, 144);
+}
+
+.bar h3 {
+    font-size: larger;
+}
+
+.bar p {
+    font-size: large;
     justify-self: center;
-    padding: 20px;
-    overflow-y: auto;
-    color: darkturquoise;
+}
+
+.Win h3 {
+    color: greenyellow;
+}
+
+.Loss h3 {
+    color: crimson;
+}
+
+.Tie h3 {
+    color: yellow;
+}
+
+.Guide {
+    position: relative;
+    top: -260px;
+    right: -66px;
+    width: 350px;
+}
+
+.Guide p {
+    letter-spacing: 2px;
 }
